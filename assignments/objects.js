@@ -18,7 +18,65 @@ const example = {
 }
 
 // Write your intern objects here:
+let interns = {
+  "id": 0,
+  "email": "intern@you.edu",
+  "firstName": "Intern",
+  "gender": "F"
+}
 
+let mitzi = {
+  "id": 1,
+  "email": "mmelloy0@psu.edu",
+  "firstName": "Mitzi",
+  "gender": "F"
+}
+
+let kennan = {
+  "id": 2,
+  "email": "kdiben1@tinypic.com",
+  "firstName": "Kennan",
+  "gender": "M",
+}
+
+let keven = {
+  "id": 3,
+  "email": "kmummery2@wikimedia.org",
+  "firstName": "Keven",
+  "gender": "M"
+}
+
+let gannie = {
+  "id": 4,
+  "email": "gmartinson3@illinois.edu",
+  "firstName": "Gannie",
+  "gender": "M"
+}
+
+let antonietta = {
+  "id": 5,
+  "email": "adaine5@samsung.com",
+  "firstName": "Antonietta",
+  "gender": "F"
+}
+
+console.log(mitzi.firstName);
+console.log(kennan.id);
+console.log(keven.email);
+console.log(gannie.firstName);
+console.log(antonietta.gender);
+
+kennan.speak = function () {
+  return "Hello, my name is Kennan!";
+}
+
+console.log(kennan.speak());
+
+antonietta.multiplyNums = function (a,b) {
+  return a * b;
+}
+
+console.log(antonietta.multiplyNums(2,5));
 
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
